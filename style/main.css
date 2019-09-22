@@ -1,0 +1,139 @@
+body {
+    background: url(bac.jpg) 100%;
+}
+
+.head {
+    font-family: "Courier New";
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(134, 62, 2);
+}
+
+.container {
+    margin: 3% auto;
+    border-radius: 25px;
+    box-shadow: 0 20px 40px 0px rgba(0, 0, 0, 0.3)
+}
+
+.row .header {
+    text-align: center;
+}
+
+.city-icon-holder {
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#city-name {
+    font-family: "Courier New";
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.allInfo {
+    font-family: "Courier New";
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(148, 64, 9);
+    /* text-align: center; */
+}
+
+.allInfoSide {
+    font-family: "Courier New";
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(148, 64, 9);
+    text-align: center;
+}
+
+#icon {
+    width: 50%;
+}
+
+.city-icon {
+    height: 80%;
+    width: 50%;
+    border-bottom-left-radius: 25px;
+    background-color: #FFC107;
+}
+
+#search-btn {
+    width: 45px;
+    height: 45px;
+    color: rgb(92, 51, 5);
+    font-size: 32px;
+    align-items: baseline
+}
+
+#search-txt {
+    color: rgb(34, 34, 82);
+    height: 45px;
+    border-radius: 10px;
+    border-style: none;
+    padding-right: 1px;
+    padding-left: 1px;
+    text-align: center;
+}
+
+input {
+    width: 250px;
+}
+
+.search {
+    text-align: center;
+    padding: 20px;
+}
+
+.info-main {
+    background: linear-gradient( to bottom, rgba(255, 211, 89, 1) 0%, rgba(255, 211, 89, 0.94) 16%, rgba(237, 150, 87, 0.69) 83%, rgba(237, 150, 87, 0.63) 100%);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 600px;
+    border-radius: 25px;
+    margin-bottom: 5%;
+    padding: 0 15px 0px 15px;
+    background: linear-gradient(to bottom, rgba(237, 237, 237, 0.38) 0%, rgba(224, 224, 224, 0.49) 18%, rgba(232, 232, 232, 0.71) 53%, rgba(242, 242, 242, 1) 100%);
+}
+
+.flex-item:nth-child(1) {
+    flex-basis: auto;
+    flex: 1 1 auto;
+    align-self: auto;
+    width: 300px;
+    height: 550px;
+    padding: 15px;
+    background: linear-gradient(to right, rgba(255, 255, 255, -0.65) 0%, rgba(255, 255, 255, 0.23) 87%, rgba(255, 255, 255, 0.23) 90%, rgba(255, 255, 255, 0.22) 94%, rgba(255, 255, 255, 0.22) 100%);
+}
+
+.flex-item:nth-child(2) {
+    order: 0;
+    flex: 1 1 auto;
+    width: 300px;
+    height: 170px;
+    padding: 15px;
+}
+
+.flex-item:nth-child(3) {
+    flex: 1 1 auto;
+    width: 300px;
+    height: 170px;
+    padding: 15px;
+}
+
+.flex-item:nth-child(4) {
+    flex: 1 1 auto;
+    width: 300px;
+    height: 170px;
+    padding: 15px;
+}

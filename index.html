@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+</head>
+
+<body>
+
+    <div class="container-fluid ">
+        <div class="container info-main">
+            <div class="row header">
+
+                <div class="col-md-12 search">
+                    <input type="text" placeholder="Enter City Name" id="search-txt">
+                    <a id="search-btn" href="#"><i class="fas fa-search"></i></a>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-md-7">
+                    <main class="flex-container ">
+                        <div class="flex-item">
+                            <div class="city-icon-holder">
+                                <div class="head"> City</div>
+                                <div id="city-name"> </div>
+                                <img src="" alt="" id="icon">
+                                <div class="allInfo"  id="description"> </div>
+                                <div class="tempInfo">
+                                    <span class="allInfo" id="tempMin"> </span>
+                                    <span class="allInfo" id="tempMax"></span>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="flex-item">
+                            <div class="temperature">
+                                <div class="head"> Temperature at these moment:</div>
+                                <div class="allInfoSide" id="temperature"></div>
+                            </div>
+                        </div>
+                        <div class="flex-item">
+                            <div class="wind">
+                                <div class="head"> Current wind power:
+                                </div>
+                                <div class="allInfoSide" id="wind"></div>
+                            </div>
+                        </div>
+                        <div class="flex-item">
+                            <div class="humidity">
+                                <div class="head"> Today's humidity: </div>
+                                <div class="allInfoSide" id="humidity-div"></div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+        <script type="module" src="app/main.js"></script>
+</body>
+
+</html>

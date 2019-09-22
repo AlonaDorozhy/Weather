@@ -1,5 +1,6 @@
 body {
     background: url(bac.jpg) 100%;
+    text-align: center;
 }
 
 .head {
@@ -39,14 +40,14 @@ body {
     font-size: 30px;
     font-weight: bold;
     color: rgb(148, 64, 9);
-    /* text-align: center; */
+    text-align: center;
 }
 
 .allInfoSide {
     font-family: "Courier New";
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bold;
-    color: rgb(148, 64, 9);
+    color: rgb(231, 104, 19);
     text-align: center;
 }
 
@@ -59,6 +60,7 @@ body {
     width: 50%;
     border-bottom-left-radius: 25px;
     background-color: #FFC107;
+    text-align: center;
 }
 
 #search-btn {
@@ -77,10 +79,14 @@ body {
     padding-right: 1px;
     padding-left: 1px;
     text-align: center;
+    font-family: "Courier New";
+    font-size: 30px;
 }
 
 input {
     width: 250px;
+    font-family: "Courier New";
+    font-size: 30px;
 }
 
 .search {
@@ -99,7 +105,7 @@ input {
     align-content: center;
     flex-wrap: wrap;
     height: 600px;
-    width: 600px;
+    width: 620px;
     border-radius: 25px;
     margin-bottom: 5%;
     padding: 0 15px 0px 15px;
@@ -110,7 +116,7 @@ input {
     flex-basis: auto;
     flex: 1 1 auto;
     align-self: auto;
-    width: 300px;
+    width: 320px;
     height: 550px;
     padding: 15px;
     background: linear-gradient(to right, rgba(255, 255, 255, -0.65) 0%, rgba(255, 255, 255, 0.23) 87%, rgba(255, 255, 255, 0.23) 90%, rgba(255, 255, 255, 0.22) 94%, rgba(255, 255, 255, 0.22) 100%);

@@ -15,8 +15,8 @@ let icon = document.getElementById('icon');
 let temperature = document.getElementById('temperature');
 let humidity = document.getElementById('humidity-div');
 let wind = document.getElementById('wind');
-let temp_min = document.getElementById('tempMin')
-let temp_max = document.getElementById('tempMax')
+let tempMin = document.getElementById('tempMin')
+let tempMax = document.getElementById('tempMax')
 let description = document.getElementById('description')
 
 searchButton.addEventListener('click', findWeatherDetails);
@@ -42,7 +42,7 @@ function theResponse(response) {
   cityName.innerHTML = jsonObject.name;
   icon.src = `http://openweathermap.org/img/w/${jsonObject.weather[0].icon}.png`;
   temperature.innerHTML = ` ${parseInt(jsonObject.main.temp - 273)}°`;
-  tempMin.innerHTML = `min:${parseInt(jsonObject.main.temp_min - 273)}° - `;
+  tempMin.innerHTML = `min:${parseInt(jsonObject.main.temp_min - 273)}°-`;
   tempMax.innerHTML = `max:${parseInt(jsonObject.main.temp_max - 273)}° `;
   
   humidity.innerHTML = `${jsonObject.main.humidity }%`;

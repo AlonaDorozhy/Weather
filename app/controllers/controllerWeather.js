@@ -9,14 +9,9 @@ export class controllerWeather {
     this.view = new viewWeather(this);
     this.key = this.model.appKey;
     this.searchLink 
-    console.log(this.view.theResponse);
 
   }
-  actionGetWeather(e) {
-    this.enterPressed();
-  }
 
-  
 
   findWeatherDetails() {
     if (this.view.searchInput.value === '') {

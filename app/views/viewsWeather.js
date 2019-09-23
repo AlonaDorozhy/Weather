@@ -4,7 +4,6 @@ export class viewWeather {
     this.searchButton = document.getElementById('search-btn');
     this.searchInput = document.getElementById('search-txt');
     this.searchButton.addEventListener('click', (e, searchInput) => this.controller.findWeatherDetails(e, searchInput));
-    this.searchInput.addEventListener('', (e) => this.controller.enterPressed(e));
     
   }
 
